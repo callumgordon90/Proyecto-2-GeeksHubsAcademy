@@ -1,7 +1,20 @@
 body{
-   font-family: 'Brush Script MT', cursive;
-   background-color: pink; 
+   font-family: 'Cinzel', serif; 
+   background-color: rgb(232, 244, 255); 
 }
+
+img.building{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
+    width: 70%;
+    height: 70%;
+    
+}
+
+
 
 h1{
     margin: 0;
@@ -12,9 +25,9 @@ h1{
     width: 100%;
     height: 10%;
     border-radius: 0;
-    background-color: red;
+    background-color:  rgb(240, 196, 203);
     text-align: center;
-    color: black;
+    color: navy;
 }
 
 .body-section{
@@ -26,36 +39,46 @@ h1{
     width: 15%;
     height: 30em;
     border-radius: 1em;
-    background-color: green;
+    background-color:  rgb(240, 196, 203);
     text-align: center;
-    color: black;
+    color: navy;
+    margin-right: 5px;
 }
 
 .sidebar-2{
-    background-color: hotpink;
+    background-color:  rgb(240, 196, 203);
     width: 15%;
     height: 30em;
     border-radius: 1em;
     text-align: center;
-    color: black;
+    color: navy;
+    margin-left: 5px;
 }
 
 .main-body{
     width: 68%;
     height: 30em;
     border-radius: 1em;
-    background-color: yellow;
+    background-color: rgb(240, 196, 203);
     text-align: center;
     margin:0 0 0 0;;  
 }
+
+
+
+
+
 
 .footer{
     width: 100%;
     height: 10%;
     border-radius: 1em;
-    background-color: blue;
+    background-color:  rgb(240, 196, 203);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     text-align: center;
-    color: black;
+    color: navy;
 }
 
 @media (max-width:770px){
@@ -77,4 +100,6 @@ h1{
         height: 70px;
         text-align: center;
     }
+
+    
 }
