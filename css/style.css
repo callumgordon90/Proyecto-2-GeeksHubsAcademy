@@ -3,7 +3,20 @@ body{
    background-color: rgb(232, 244, 255); 
 }
 
-img.building{
+a:link {
+    text-decoration: none;
+  }
+
+a:visited {
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: black;
+  }
+
+
+.building{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -11,7 +24,28 @@ img.building{
     margin-left: 15%;
     width: 70%;
     height: 70%;
+    margin-top: 7%;
 }
+
+.dining{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin-left: 15%;
+    width: 70%;
+    height: 70%;
+    
+}
+
+
+
+.pics{
+    height: 10em;
+    width: 15em;
+    margin-left: 5.5%;
+}
+
 
 .table{
     
@@ -59,15 +93,31 @@ h1{
     margin-left: 5px;
 }
 
+
 .contact{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: flex-end;
     color: navy;
-    
 }
 
+.contactpage{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color: navy;
+}
+
+.form-label2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    color: navy;
+}
 
 
 .form-label2{
